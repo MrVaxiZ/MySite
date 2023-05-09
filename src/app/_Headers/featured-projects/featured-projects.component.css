@@ -46,7 +46,7 @@ blockquote {
 blockquote, p , a, li {
 	font-family: 'Lato', Helvetica, sans-serif;
 	font-weight: 300;
-	font-size: 15px;
+	font-size: 18px;
 	color: #e4e3e8;
 }
 
@@ -163,4 +163,7 @@ ul {
 	.right_circle{
 		left: 343px;
 	}
-	
+
+.first-paragraph {
+	margin-left: 20px;
+}
