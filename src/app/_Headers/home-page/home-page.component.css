@@ -12,6 +12,7 @@
 /* Utils */
 
 .clear {
+	margin-top: 100px;
 	clear: both;
 }
 .purple {
@@ -92,11 +93,6 @@
 	
 /* Main tags */
 
-body {
-	background: url(https://www.toptal.com/designers/subtlepatterns/patterns/dark_wall.png) repeat;
-	margin: 0;
-}
-
 h1,h2,h3, h4 {
 	font-family: 'Lato', Helvetica, sans-serif;
 	font-weight: 300;
@@ -164,7 +160,7 @@ ul {
 		border-bottom: 1px solid #403F44;
 	}
 		.header_logotype_container {
-			width: 260px;
+			width: 261px;
 			height: 130px;
 			border-right: 1px solid #403F44;
 			float: left;
@@ -409,6 +405,13 @@ ul {
         color: #fff;
         border-top-right-radius: 50px;
         border-bottom-left-radius: 50px;
+      }
+
+	  .social_icons .github:hover {
+        background: #ebeded;
+        color: #fff;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
       }
       
 

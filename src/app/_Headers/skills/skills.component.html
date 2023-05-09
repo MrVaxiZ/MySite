@@ -1,1 +1,30 @@
-<p>skills works!</p>
+<!-- MAIN CONTAINER -->
+<div id="main_container">
+
+    <!-- PROFILE CONTENT -->
+    <div id="content_container">
+        <div class="block">
+            <h1>Skills</h1>
+        </div>
+        <div class="horizontal_line">
+            <div class="line_left"></div>
+            <div class="left_circle"></div>
+            <div class="central_circle"></div>
+            <div class="right_circle"></div>
+            <div class="line_right"></div>
+        </div>
+        <div class="block">
+            <div class="skills-container">
+                <div *ngFor="let skill of skills">
+                  <h3>{{ skill.key }}</h3>
+                  <p>{{ skill.description }}</p>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <!-- FOOTER -->
+    <div id="footer">
+        <p class="footer_name">Wiktor Kot CV 2023</p>
+    </div>
+</div>
