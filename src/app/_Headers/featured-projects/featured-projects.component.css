@@ -167,3 +167,19 @@ ul {
 .first-paragraph {
 	margin-left: 20px;
 }
+
+.photo-header {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.photos {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.s1 {
+	width: 100%;
+	height: auto;
+	margin-top: 25px;
+}

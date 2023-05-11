@@ -21,7 +21,7 @@ import { HomePageComponent } from './_Headers/home-page/home-page.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
