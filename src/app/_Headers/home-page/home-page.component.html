@@ -28,22 +28,35 @@
       <img class="profile_picture" src="assets/photo.png" alt="profile picture">
     </div>
     <div class="hello_content">
-      <h2>Hello!</h2>
+      <h1 class="hello_message">Hello!</h1>
+      <div class="header_separator"></div>
       <p>I'm passionate about technology and human behavior, hardworker and a fast-learner I love to push myself out
         of my
         comfort zone.</p>
     </div>
+
     <div class="contact_details_content">
-      <h2>Contact details</h2>
-      <p class="purple">Phone:</p>
-      <p>+48 606 634 481</p>
-      <p class="purple">Email:</p>
-      <p>wiktorkot22@gmail.com</p>
-      <p class="purple">Adress:</p>
-      <p>Biernackiego 12/14</p>
-      <p>Tomaszow Mazowiecki</p>
-      <p>Lodzkie, Polska</p>
+      <h2 class="header_1">Contact details</h2>
+      <div class="header_separator"></div>
+      <h3 class="header_2">Click to see!</h3>
+      <div class="Phone-Button">
+        <button type="button" class="btn btn-primary equal-width-button" (click)="toggleContactInfo('phone')">
+          Phone
+        </button>
+        <div *ngIf="showPhoneInfo" class="contact-info-container">
+          <b class="contact-info">+48 606 634 481</b>
+        </div>
+      </div>
+      <div class="Email-Button">
+        <button type="button" class="btn btn-primary equal-width-button" (click)="toggleContactInfo('email')">
+          Email
+        </button>
+        <div *ngIf="showEmailInfo" class="contact-info-container">
+          <b class="contact-info">wiktorkot22@gmail.com</b>
+        </div>
+      </div>
     </div>
+    
     <a href="mailto:wiktorkot22@gmail.com" class="send_message_button">
       <span class="cut1"></span>
       <span class="cut2"></span>

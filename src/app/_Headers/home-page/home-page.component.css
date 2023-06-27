@@ -195,7 +195,7 @@ ul {
 
 .logotype_name{
 	text-transform: uppercase;
-	font-size: 18px;
+	font-size: 22px;
 	margin: 43px 0 0;
 }
 .logotype_occupation{
@@ -239,6 +239,7 @@ ul {
     background: black;
     border: 3px solid #403F44;
     margin-top: 30px;
+	margin-left: 30px;
   }
   
   .profile_picture {
@@ -255,6 +256,9 @@ ul {
 
 .hello_content{
 	width: 230px;
+}
+.hello_message{
+	margin-left: 50px;
 }
 .contact_details_content h2 + p.purple{
 	margin-top: 10px;
@@ -318,6 +322,7 @@ ul {
 
     .get_social_content {
         margin-top: 15px;
+		margin-left: 45px;
       }
       
       .get_social_content h2 {
@@ -410,3 +415,59 @@ ul {
 		cursor: default;
 	}
 
+.Phone-Button,
+.Email-Button {
+	margin-bottom: 10px;
+}
+
+.equal-width-button {
+	width: 90%;
+  }
+.animated {
+	animation-duration: 0.5s;
+	animation-fill-mode: both;
+  }
+  
+  .fadeIn {
+	animation-name: fadeIn;
+  }
+  
+  @keyframes fadeIn {
+	from {
+	  opacity: 0;
+	}
+	to {
+	  opacity: 1;
+	}
+  }
+  
+  .contact-info-container {
+	width: 90%;
+	height: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(111, 247, 111);
+	padding: 10px;
+	margin-top: 10px;
+	border-radius: 8px;
+  }
+  
+  .contact-info {
+	color: black;
+  }
+
+  .header_separator {
+	border-bottom: 1px solid rgb(80, 79, 79);
+	margin-bottom: 10px;
+  }
+
+  .header_1 {
+	margin-top: 20px;
+	margin-left: 30px;
+  }
+
+  .header_2 {
+	margin-top: 20px;
+	margin-left: 50px;
+  }

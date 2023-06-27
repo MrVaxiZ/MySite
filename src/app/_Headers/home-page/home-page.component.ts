@@ -8,6 +8,9 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class HomePageComponent implements OnInit {
   hideContentAfterDiv: boolean = false;
+  showPhoneInfo = false;
+  showEmailInfo = false;
+
   constructor(private router: Router, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
@@ -15,5 +18,13 @@ export class HomePageComponent implements OnInit {
 
   isRouteActive(routePath: string): boolean {
     return this.router.url === routePath;
+  }
+
+  toggleContactInfo(infoType: string) {
+    if(infoType === 'phone') {
+      this.showPhoneInfo = !this.showPhoneInfo
+    } else if (infoType === 'email') {
+      this.showEmailInfo = !this.showEmailInfo
+    }
   }
 }

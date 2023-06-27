@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PanZoomConfig, PanZoomConfigOptions } from 'ngx-panzoom';
 
 @Component({
   selector: 'app-featured-projects',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FeaturedProjectsComponent implements OnInit {
 
-  constructor() { }
+  panZoomConfig: PanZoomConfig = new PanZoomConfig();
+
+  constructor() {
+    this.ngOnInit();
+  }
 
   ngOnInit(): void {
+    this.panZoomConfig.zoomOnDoubleClick = true;
   }
 
 }
