@@ -125,44 +125,52 @@ ul {
 	height: 26px;
 	position: relative;	
 }
-	.line_left,
-	.line_right{
-		border-top: 1px solid #434247;
-		width: 305px;
-		margin-top: 13px;
-	}
-	.line_left{
-		float: left;
-	}
-	.line_right {
-		float: right;
-	}
-	.left_circle, 
-	.central_circle, 
-	.right_circle {
-		background: rgb(69,68,73);
-		background: rgba(255,255,255, 0.15);
-		position: absolute;
-		border-radius: 50px;
-	}
-	.left_circle, 
-	.right_circle {
-		width: 13px;
-		height: 13px;
-		top: 7px;
-	}
-	.left_circle{
-		left: 314px;
-	}
-	.central_circle{
-		width: 26px;
-		height: 26px;		
-		top: 0px;
-		left: 322px;
-	}
-	.right_circle{
-		left: 343px;
-	}
+.line_left,
+.line_right{
+	border-top: 1px solid #434247;
+	width: 305px;
+	margin-top: 13px;
+}
+.line_left{
+	float: left;
+}
+.line_right {
+	float: right;
+}
+.left_circle, 
+.central_circle, 
+.right_circle {
+	background: rgb(69,68,73);
+	background: rgba(255,255,255, 0.15);
+	position: absolute;
+	border-radius: 50px;
+}
+.left_circle, 
+.right_circle {
+	width: 13px;
+	height: 13px;
+	top: 7px;
+}
+.left_circle{
+	left: 314px;
+}
+.central_circle{
+	width: 26px;
+	height: 26px;		
+	top: 0px;
+	left: 322px;
+}
+.right_circle{
+	left: 343px;
+}
+
+.ncr-atleos-photo {
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-bottom: -5px;
+	zoom: 150%;
+	width: 85%;
+}
 
 .acce-photo {
 	margin-top: 15px;
@@ -174,6 +182,11 @@ ul {
 .head-text-block {
 	margin-left: 15px;
 	text-align: left;
+}
+
+.ncr-atleos-content {
+	margin-top: 20px;
+	margin-left: 20px;
 }
 
 .accenture-content {
